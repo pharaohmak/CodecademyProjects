@@ -1,0 +1,29 @@
+.breadcrumb{
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .breadcrumb > li{
+    display: inline;
+  }
+  .breadcrumb li.location+li.location::before{
+    content: "> ";
+  }
+  .breadcrumb li.location a:hover{
+    color: lightblue;
+    text-decoration: underline;
+  }
+  .breadcumb li.attribute a{
+    color: pink;
+    margin-left: 10px;
+  }
+  .breadcrumb li.attribute::after{
+    content: "*";
+    vertical-align: super;
+    color: pink;
+  }
+  .breadcumb li.attribute a:hover{
+    color: green;
+  }
