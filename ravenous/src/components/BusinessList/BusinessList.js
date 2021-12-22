@@ -1,27 +1,18 @@
 import React from 'react';
-import './Business.css';
 import Business from '../Business/Business';
-import { ReactReduxContext } from 'react-redux';
+import './BusinessList.css';
 
-class BusinessList extends ReactReduxContext.Component {
+class BusinessList extends React.Component {
     render() {
-        return ( <
-            div className = "BusinessList" >
-            <
-            Business / >
-            <
-            Business / >
-            <
-            Business / >
-            <
-            Business / >
-            <
-            Business / >
-            <
-            Business / >
-            <
-            /div >
-        )
+        return (
+            <div className="BusinessList">
+                {
+                    this.props.businesses.map(function(business, i) {
+                        return <Business key={business.id} business={business} />;
+                    })
+                }
+            </div>
+        );
     }
 }
 

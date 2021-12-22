@@ -28,9 +28,9 @@ class Contact extends React.Component {
             header = 'Enter the password';
         }
 
-        const login = (
+        const login = (<
 
-            <form action = '#'
+            form action = '#'
             onSubmit = { this.authorize }>
                 <input type = 'password'
                 placeholder = 'Password'/>
