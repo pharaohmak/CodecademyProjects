@@ -3,7 +3,7 @@ let userName = 'Mak';
 userName ? console.log(`Hello, ${userName}!`) :
     console.log('Hello!');
 
-const userQuestion = 'Will I become a successfull Entreprenuer?';
+const userQuestion = 'Will I become a successful Software Engineer?';
 console.log(`${userName} asked: ${userQuestion}`);
 
 const randomNumber = Math.floor(Math.random() * 8);
@@ -28,13 +28,13 @@ switch (randomNumber) {
         console.log('Reply hazy try again');
         break;
     case 4:
-        console.log('Cannot predit now');
+        console.log('i have a good feeling');
         break;
     case 5:
         console.log('Do not count on it');
         break;
     case 6:
-        console.log('My sources say no');
+        console.log('Indubedabely');
         break;
     case 7:
         console.log('Outlook not so good');

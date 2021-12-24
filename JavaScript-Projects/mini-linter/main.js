@@ -36,7 +36,7 @@ for (word of storyWords) {
 
 console.log('Word count', storyWords.length)
 console.log('sentance count', sentences)
-console.log('realy', reallyCount)
+console.log('really', reallyCount)
 console.log('very', veryCount)
 console.log('basically', basicallyCount)
 

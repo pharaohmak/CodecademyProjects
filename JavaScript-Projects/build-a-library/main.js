@@ -76,20 +76,20 @@ let historyOfEverything = new Book('Bill Bryson', 'A Short History of Nearly Eve
 
 historyOfEverything.toggleCheckOutStatus();
 
-console.log(historyOfEverything.isCheckedOut);
+//console.log(historyOfEverything.isCheckedOut);
 
 historyOfEverything.addRating(3);
 historyOfEverything.addRating(4);
 historyOfEverything.addRating(5);
 
-console.log(historyOfEverything.getAverageRating());
+//console.log(historyOfEverything.getAverageRating());
 
 let speed = new Movie('Jan de Bont', 'Speed', 116);
 speed.toggleCheckOutStatus();
-console.log(speed.isCheckedOut);
+console.log(`Checked out: ${speed.isCheckedOut}`);
 
 speed.addRating(1);
 speed.addRating(1);
 speed.addRating(5);
 
-console.log(speed.getAverageRating());
+console.log(`Average Rating: ${speed.getAverageRating()}`);
