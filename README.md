@@ -1,9 +1,9 @@
 # Codecademy-Projects
 
-this is a repository of all the projects completed on Codecademy.com
+This is a repository of all the projects completed at Codecademy.com
 
-some of the completed courses, skill path, and careeer paths
+Completed Courses, Skill and Careeer Paths
 
-* Front End Engineering -- career path
-* Build a website with html css and github pages -- skill path 
-* WebDevelopment -- skill path
+* Front End Engineering -- Career Cath
+* Build a Website with Html CSS and Github pages -- Skill Path 
+* WebDevelopment -- Skill Path
